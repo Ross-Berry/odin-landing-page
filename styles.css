@@ -6,9 +6,10 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
-/* Header Styles */
+/* First section styles */
 
 ul {
     list-style: none;
@@ -34,12 +35,12 @@ button {
     padding: 8px 32px;
 }
 
-.header {
+.first-section {
     background-color: #1f2937;
     padding: 8px;
 }
 
-.nav {
+.header {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -77,4 +78,30 @@ button {
 .caption {
     font-family: 18px;
     color: #e5e7eb;
+}
+
+/* Second section styles */
+
+.second-section {
+    padding: 8px;
+}
+
+h2 {
+    padding: 24px 0px 32px 0px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+
+.card {
+    width: 150px;
+    height: 400px;
+}
+
+.tile {
+    border: solid 3px #3882f6;
+    border-radius: 10px;
 }
