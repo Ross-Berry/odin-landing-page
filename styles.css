@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
 }
 
 /* First section styles */
@@ -83,6 +82,9 @@ button {
 /* Second section styles */
 
 .second-section {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
     padding: 8px;
 }
 
@@ -98,10 +100,40 @@ h2 {
 
 .card {
     width: 150px;
-    height: 400px;
+    height: 250px;
 }
 
 .tile {
     border: solid 3px #3882f6;
     border-radius: 10px;
+}
+
+/* Third section styles */
+
+.third-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+figure {
+    width: 725px;
+}
+
+blockquote p {
+    font-size: 32px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+figcaption {
+    text-align: end;
+    padding-right: 25px;
+}
+
+cite {
+    font-style: normal;
+    font-weight: bold;
 }
