@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 body {
@@ -117,18 +117,18 @@ h2 {
     border-radius: 10px;
 }
 
-/* Third section styles */
+/* Quote Styles */
 
-.third-section {
+.quote {
     background-color: #e5e7eb;
+    padding: 75px 0px 75px 0px;
+    
     display: flex;
     justify-content: center;
-    padding-top: 75px;
-    padding-bottom: 75px;
 }
 
 figure {
-    width: 725px;
+    width: 700px;
 }
 
 blockquote p {
@@ -139,10 +139,10 @@ blockquote p {
 
 figcaption {
     text-align: end;
-    padding-right: 25px;
+    padding-right: 35px;
 }
 
-cite {
+figcaption cite {
     font-style: normal;
     font-weight: bold;
 }
