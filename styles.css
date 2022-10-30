@@ -2,21 +2,26 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
+    border: 2px solid red;
 }
 
 body {
+    /* background-color: #000; */
     font-family: 'Open Sans', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
 }
 
-/* First section styles */
+/* Header Styles */
 
 ul {
     list-style: none;
-}
 
-li {
-    display: inline-block;
-    margin-left: 16px;
+    display: flex;
+    gap: 20px;
 }
 
 a {
@@ -25,58 +30,62 @@ a {
     color: #e5e7eb;
 }
 
-button {
-    border-style: none;
-    border-radius: 10px;
-    background-color: #3882f6;
-    color: #ffffff;
-    font-weight: 700;
-    padding: 8px 32px;
-}
-
-.first-section {
-    background-color: #1f2937;
-    padding: 8px;
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .header {
+    color: #f9faf8;
+    background-color: #1f2937;
+
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 64px;
+    flex-direction: column;
+}
+
+.nav, .hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    margin-bottom: 50px;
+}
+
+.hero {
+    gap: 40px;
+}
+
+.hero button {
+    width: 125px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 8px 32px;
 }
 
 .logo {
     font-size: 24px;
-    color: #f9faf8;
 }
 
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 28px;
-    margin-bottom: 64px;
+.statement, placeholder {
+    flex: 1;
 }
 
-.text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.statement {
     width: 350px;
     height: 243.5px;
-    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
 }
 
-.title {
-    font-size: 48px;
-    font-weight: bold;
-    color: #f9faf8;
-}
-
-.caption {
-    font-family: 18px;
-    color: #e5e7eb;
+.placeholder {
+    height: 243.5px;
 }
 
 /* Second section styles */
