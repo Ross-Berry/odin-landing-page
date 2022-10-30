@@ -2,17 +2,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
-    /* border: 2px solid red; */
 }
 
 body {
-    /* background-color: #000; */
     font-family: 'Open Sans', sans-serif;
 
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 }
 
 /* Header Styles */
@@ -32,7 +28,7 @@ a {
 
 h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .header {
@@ -69,6 +65,7 @@ h1 {
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .statement, placeholder {
@@ -85,6 +82,11 @@ h1 {
     gap: 10px;
 }
 
+.statement p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .placeholder {
     height: 243.5px;
 }
@@ -93,11 +95,14 @@ h1 {
 
 .information { 
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     align-items: center;
 }
 
 h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
     padding: 32px 0px 32px 0px;
 }
 
@@ -109,8 +114,8 @@ h2 {
 
 .card {
     text-align: center;
-    width: 150px;
-    height: 300px;
+    width: 200px;
+    height: 350px;
 }
 
 .tile {
@@ -129,18 +134,18 @@ h2 {
 }
 
 figure {
-    width: 700px;
+    width: 850px;
 }
 
 blockquote p {
-    font-size: 32px;
+    font-size: 36px;
     font-style: italic;
     color: #1f2937;
 }
 
 figcaption {
     text-align: end;
-    padding-right: 35px;
+    padding-right: 50px;
 }
 
 figcaption cite {
@@ -184,6 +189,6 @@ figcaption cite {
 .footer {
     text-align: center;
     background-color: #1f2937;
-    color: #fff;
+    color: #e5e7eb;
     padding: 50px;
 }
