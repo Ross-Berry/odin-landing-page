@@ -179,11 +179,11 @@ figcaption cite {
     padding: 4px 24px;
 }
 
-/* Fifth section styles */
+/* Footer Styles */
 
-.fifth-section {
+.footer {
+    text-align: center;
     background-color: #1f2937;
     color: #fff;
-    text-align: center;
     padding: 50px;
 }
