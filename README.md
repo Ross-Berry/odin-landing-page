@@ -11,8 +11,4 @@ Second challenge of The Odin Project (Foundations Course), building a landing pa
 
 ### Media credits
 
-[*fauxels*](https://www.pexels.com/@fauxels/)
-[*Hassan Pasha*](https://unsplash.com/@hpzworkz)
-[*martin bennie*](https://unsplash.com/@martinbennie)
-[*ConfinedRiley*](https://unsplash.com/@confinedriley)
-[*Daniel J. Schwarz*](https://unsplash.com/@danieljschwarz)
+[*fauxels*](https://www.pexels.com/@fauxels/), [*Hassan Pasha*](https://unsplash.com/@hpzworkz), [*martin bennie*](https://unsplash.com/@martinbennie), [*ConfinedRiley*](https://unsplash.com/@confinedriley), [*Daniel J. Schwarz*](https://unsplash.com/@danieljschwarz)
